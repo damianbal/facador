@@ -9,12 +9,12 @@
 
 ## How to use Facador?
 
-How to create class and have dependency injected?
+How to create class instance and have dependency injected?
 ```php
 $myClass = DependencyResolver::createClass(YourClassName::class, ['page' => 3]);
 ```
 
-How to invoke method on class and have dependency injected?
+How to invoke method on class instance and have dependency injected?
 ```php
 DependencyResolver::invoke($myClass, 'update', ['username' => 'MynewName']);
 ```
