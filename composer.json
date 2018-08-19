@@ -1,0 +1,21 @@
+{
+    "name": "damianbal/facador",
+    "description": "Simple Dependency Resolver for PHP with Facade support",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "balandowski@icloud.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "damianbal\\Facador\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
