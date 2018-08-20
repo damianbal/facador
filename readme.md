@@ -1,6 +1,12 @@
 # Facador
 > Simple Dependency Resolver for PHP with Facade support
 
+## Installation
+
+```sh
+composer require damianbal/facador
+```
+
 ## Features
 * Create class with dependency injection
 * Invoke method with dependency injection
